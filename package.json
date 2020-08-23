@@ -4,11 +4,13 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dev": "nodemon --exec electron ."
   },
   "author": "anuwat.k",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^9.2.1"
+    "electron": "^9.2.1",
+    "nodemon": "^2.0.4"
   }
 }
