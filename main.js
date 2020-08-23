@@ -20,7 +20,7 @@ function createMainWindow() {
     title: "ImageShrink",
     width: isDev ? 1500 : 500,
     height: 600,
-    icon: "./assets/icons/Icon_256x256.png",
+    // icon: "./assets/icons/win/icon.ico",
     resizable: isDev ? true : false,
     backgroundColor: "white",
     webPreferences: {
@@ -40,7 +40,7 @@ function createAboutWindow() {
     title: "About ImageShrink",
     width: 300,
     height: 300,
-    icon: "./assets/icons/Icon_256x256.png",
+    //icon: "./assets/icons/Icon_256x256.png",
     resizable: false,
     backgroundColor: "white",
   });
