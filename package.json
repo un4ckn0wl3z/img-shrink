@@ -1,0 +1,14 @@
+{
+  "name": "img-shrink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "anuwat.k",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.2.1"
+  }
+}
