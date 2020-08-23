@@ -32,6 +32,13 @@ app.on("ready", () => {
 });
 
 const menu = [
+  ...(!isWin32
+    ? [
+        {
+          role: "appMenu",
+        },
+      ]
+    : []),
   {
     label: "File",
     submenu: [
@@ -42,6 +49,12 @@ const menu = [
     ],
   },
 ];
+
+// if (isWin32) {
+//   menu.unshift({
+//     role: "appMenu",
+//   });
+// }
 
 app.on("window-all-closed", () => {
   if (isWin32) {
