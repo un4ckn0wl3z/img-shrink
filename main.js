@@ -33,6 +33,7 @@ function createAboutWindow() {
   });
 
   aboutWindow.loadFile("./app/about.html");
+  aboutWindow.setMenuBarVisibility(false);
 }
 
 app.on("ready", () => {
